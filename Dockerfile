@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:experimental
+# syntax=docker/dockerfile:experimental 
 FROM golang:1.19 as builder
 ARG TARGETOS
 ARG TARGETARCH
